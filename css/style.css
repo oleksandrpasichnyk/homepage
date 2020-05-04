@@ -1,3 +1,19 @@
+main{
+    background-image: url('./assets/images/bg_flag.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title_info{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+}
+
 .contacts li a.twitter:hover {
     color: #00ACEE;
 }
@@ -12,30 +28,12 @@
     color: #D44638;
 }
 
-
-
 .avatar {
     position: relative;
     max-width: 10rem;
     display: block;
     flex: 1 0 auto;
   }
-
-main{
-    background-image: url('/assets/images/bg_flag.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.title_info{
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.head{
-    display: flex;
-}
 
 @media only screen and (max-width: 767px) {
     .title_info{
