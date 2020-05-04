@@ -80,6 +80,26 @@ ul > li:before{
     margin-left: 30px;
 }
 
+#main{
+    position: static;
+}
+
+#wall{
+    width: 100vw;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    bottom: 0;
+    flex-wrap: wrap-reverse;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.brick{
+    width: 5vh;
+}
+
+
 @media only screen and (max-width: 767px) {
     .grid{
         padding: 20px;
@@ -90,6 +110,10 @@ ul > li:before{
         margin: 0;
         width: 100%;
         justify-content: center;
+    }
+
+    .avatar {
+        max-width: 10rem;
     }
 
     label.summary > li{
@@ -107,6 +131,10 @@ ul > li:before{
 
     .contacts li a span{
         display: none;
+    }
+
+    .contacts li{
+        margin: 0;
     }
 
     .contacts{
