@@ -18,6 +18,8 @@
         brickImage.src = './assets/images/brick.jpg'; 
         brickImage.classList.add('brick');
         brickImage.style.width = brickWidth + 'vw'; 
+        brickImage.style.height = brickHeight + 'vw'; 
+
 
         wall.append(brickImage);
     };
