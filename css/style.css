@@ -1,28 +1,4 @@
-.contacts li a.twitter:hover {
-    color: #00ACEE;
-}
-
-.contacts li a.instagram:hover {
-    color: #cc2366;
-    /*background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
-
-}
-
-.contacts li a.mail:hover {
-    color: #D44638;
-}
-
-
-
-.avatar {
-    position: relative;
-    max-width: 10rem;
-    display: block;
-    flex: 1 0 auto;
-  }
-
 main{
-    background-image: url('/assets/images/bg_flag.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -35,6 +11,25 @@ main{
 
 .head{
     display: flex;
+}
+
+.contacts li a.twitter:hover {
+    color: #00ACEE;
+}
+
+.contacts li a.instagram:hover {
+    color: #cc2366;
+}
+
+.contacts li a.mail:hover {
+    color: #D44638;
+}
+
+.avatar {
+    position: relative;
+    max-width: 10rem;
+    display: block;
+    flex: 1 0 auto;
 }
 
 @media only screen and (max-width: 767px) {
