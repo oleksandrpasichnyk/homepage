@@ -4,13 +4,37 @@ main{
 }
 
 .title_info{
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
 
+.title_info h1{
+    font-size: 2em;
+}
+
+.contacts li a span{
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+.contacts li{
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.icon{
+    width: 15px;
+}
+
+.description{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
 .head{
     display: flex;
+    align-items: center;
 }
 
 .contacts li a.twitter:hover {
@@ -27,19 +51,88 @@ main{
 
 .avatar {
     position: relative;
-    max-width: 10rem;
+    max-width: 15rem;
     display: block;
     flex: 1 0 auto;
 }
 
+li.details div ul{
+    padding-left: 10px;
+}
+
+li.details div ul li{
+    padding: 5px;
+}
+
+li.details div ul li b{
+    color: midnightblue;
+}
+
+div.six.wide.column :first-child{
+    padding-top: 0;
+}
+
+ul > li:before{
+    display: none;
+}
+
+.timeline .details{
+    margin-left: 30px;
+}
+
 @media only screen and (max-width: 767px) {
+    .grid{
+        padding: 20px;
+    }
+
     .title_info{
-        margin-left: 0;
+        text-align: left;
+        margin: 0;
+        width: 100%;
         justify-content: center;
+    }
+
+    label.summary > li{
+        padding: 5px;
     }
 
     .head{
         padding-top: 20px;
     }
-  }
+
+    .contacts li a .icon{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .contacts li a span{
+        display: none;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    li.details div ul{
+        padding-left: 0;
+    }
+    /*.contacts li a.facebook{
+        color: #3b5998;
+    }
+
+    .contacts li a.twitter{
+        color: #00ACEE;
+    }
+    
+    .contacts li a.instagram{
+        color: #cc2366;
+    }
+    
+    .contacts li a.mail{
+        color: #D44638;
+    }*/
+
+}
    
