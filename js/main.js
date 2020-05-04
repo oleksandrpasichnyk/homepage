@@ -15,7 +15,7 @@
 
     const buildBrick = () => {
         const brickImage = document.createElement('img');
-        brickImage.src = '../assets/images/brick.jpg'; 
+        brickImage.src = './../assets/images/brick.jpg'; 
         brickImage.classList.add('brick');
         brickImage.style.width = brickWidth + 'vw'; 
 
