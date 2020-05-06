@@ -1,158 +1,158 @@
 main {
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
-  .titleInfo {
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .titleInfo h1 {
-    font-size: 2em;
-  }
-  
-  .contacts li a span {
-    padding-left: 0;
-    font-size: 1.2em;
-  }
-  
-  .contacts li {
-    padding-top: 5px;
-    margin-right: 20px;
-  }
-  
-  .icon {
-    width: 15px;
-  }
-  
-  .description {
-    font-size: 1.2em;
-    text-align: justify;
-  }
-  
-  .head {
-    display: flex;
-    align-items: center;
-  }
-  
-  .contacts li a.twitter:hover {
-    color: #00acee;
-  }
-  
-  .contacts li a.instagram:hover {
-    color: #cc2366;
-  }
-  
-  .contacts li a.mail:hover {
-    color: #d44638;
-  }
-  
-  .avatar {
-    position: relative;
-    max-width: 15rem;
-    display: block;
-    flex: 1 0 auto;
-  }
-  
-  li.details div ul {
-    padding-left: 10px;
-  }
-  
-  li.details div ul li {
-    padding: 5px;
-  }
-  
-  li.details div ul li b {
-    color: midnightblue;
-  }
-  
-  div.six.wide.column :first-child {
-    padding-top: 0;
-  }
-  
-  ul > li::before {
-    display: none;
-  }
-  
-  .timeline .details {
-    margin-left: 30px;
-  }
-  
-  #main {
-    position: static;
-  }
-  
-  #wall {
-    position: fixed;
-    z-index: 9999;
-    display: flex;
-    bottom: 0;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-start;
-    overflow: visible;
-  }
-  
-  /* .brick {
-    display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.titleInfo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.titleInfo h1 {
+  font-size: 2em;
+}
+
+.contacts li a span {
+  padding-left: 0;
+  font-size: 1.2em;
+}
+
+.contacts li {
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+.icon {
+  width: 15px;
+}
+
+.description {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.contacts li a.twitter:hover {
+  color: #00acee;
+}
+
+.contacts li a.instagram:hover {
+  color: #cc2366;
+}
+
+.contacts li a.mail:hover {
+  color: #d44638;
+}
+
+.avatar {
+  position: relative;
+  max-width: 15rem;
+  display: block;
+  flex: 1 0 auto;
+}
+
+li.details div ul {
+  padding-left: 10px;
+}
+
+li.details div ul li {
+  padding: 5px;
+}
+
+li.details div ul li b {
+  color: midnightblue;
+}
+
+div.six.wide.column :first-child {
+  padding-top: 0;
+}
+
+ul > li::before {
+  display: none;
+}
+
+.timeline .details {
+  margin-left: 30px;
+}
+
+#main {
+  position: static;
+}
+
+#wall {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  bottom: 0;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  overflow: visible;
+}
+
+/* .brick {
+  display: block;
+}
+
+.landslideBrick {
+  display: block;
+} */
+
+@media only screen and (max-width: 767px) {
+  .grid {
+    padding: 20px;
   }
 
-  .landslideBrick {
-    display: block;
-  } */
-  
-  @media only screen and (max-width: 767px) {
-    .grid {
-      padding: 20px;
-    }
-  
-    .titleInfo {
-      text-align: left;
-      margin: 0;
-      width: 100%;
-      justify-content: left;
-    }
-  
-    .avatar {
-      max-width: 10rem;
-    }
-  
-    .contacts li {
-      margin: 0;
-    }
-  
-    label.summary > li {
-      padding: 5px;
-    }
-  
-    .head {
-      padding-top: 0px;
-    }
-  
-    .mainInfo{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .contacts li a .icon {
-      width: 5vw;
-      height: 5vw;
-    }
-  
-    .contacts li a span {
-      display: none;
-    }
-  
-    .contacts {
-      display: flex;
-      width: 80%;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-  
-    li.details div ul {
-      padding-left: 0;
-    }
+  .titleInfo {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    justify-content: left;
   }
-  
+
+  .avatar {
+    max-width: 10rem;
+  }
+
+  .contacts li {
+    margin: 0;
+  }
+
+  label.summary > li {
+    padding: 5px;
+  }
+
+  .head {
+    padding-top: 0;
+  }
+
+  .mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts li a .icon {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .contacts li a span {
+    display: none;
+  }
+
+  .contacts {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  li.details div ul {
+    padding-left: 0;
+  }
+}
